@@ -12,14 +12,15 @@ This application was developed as a pet of the project. The application itself i
 
 
 
-Home page: 
+
+Registration: 
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/1.png" width="200">
 </p>
 
 
-Bad site found:
+Sign in:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/2.png" width="200">
