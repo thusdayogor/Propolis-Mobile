@@ -17,11 +17,9 @@ Registration/Sign in
 ----
 <p align="left">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/1.png" width="200">
-</p>
-
-<p align="right">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/2.png" width="200">
 </p>
+
 
 
 Settings menu:
