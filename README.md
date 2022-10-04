@@ -8,3 +8,31 @@ This application was developed as a pet of the project. The application itself i
 6) The application implements two-factor authentication.
 7) Coroutines are used to perform blocking operations, and live data and observers are used to obtain data from them. 
 8) Implemented a notification mechanism using Alarm Manager, Broadcast Receiver, Service, Notification Manager.
+
+
+
+
+Home page: 
+----
+<p align="center">
+<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/1.png" width="500">
+</p>
+
+
+Bad site found:
+----
+<p align="center">
+<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/2.png" width="500">
+</p>
+
+Good site found:
+----
+<p align="center">
+<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/3.png" width="500">
+</p>
+
+ROC:
+----
+<p align="center">
+<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/4.png" width="500">
+</p>
