@@ -38,6 +38,9 @@ Password change/Add Vk:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/5.png" width="200">
+</p>
+
+<p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/4.png" width="200">
 </p>
 
@@ -47,7 +50,10 @@ Password change/Add Vk:
 Black/White lists create:
 ----
 <p align="center">
-<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/6.png" width="200">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/7.png" width="200">
+</p>
+
+<p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/7.png" width="200">
 </p>
 
