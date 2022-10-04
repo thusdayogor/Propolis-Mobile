@@ -26,13 +26,13 @@ Sign in:
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/2.png" width="200">
 </p>
 
-Good site found:
+Settings menu:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/3.png" width="200">
 </p>
 
-ROC:
+Password change:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/4.png" width="200">
