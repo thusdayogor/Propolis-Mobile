@@ -56,14 +56,14 @@ Settings menu:
 </p>
 
 
-Settings menu:
+Discussion feed:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/8.png" width="200">
 </p>
 
 
-Settings menu:
+Notification:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/9.png" width="200">
