@@ -13,18 +13,16 @@ This application was developed as a pet of the project. The application itself i
 
 
 
-Registration: 
+Registration/Sign in 
 ----
-<p align="center">
+<p align="left">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/1.png" width="200">
 </p>
 
-
-Sign in:
-----
-<p align="center">
+<p align="right">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/2.png" width="200">
 </p>
+
 
 Settings menu:
 ----
