@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/background_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/black_button_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/black_edit_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/button_style.xml" value="0.2635" />
+        <entry key="app/src/main/res/drawable/code_dialog_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/delemiter_rectangle.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/down_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/edit_text_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/help_dialog_style.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_100.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_off_24.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/ic_baseline_password_40.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_icons8___________144.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/lenta_element_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/photo_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/question_style.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/special_spinner_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/spinner_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/vk_icon.xml" value="0.1255" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/black_spinner.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/code_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_back_sign.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/fragment_change_f.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_discusssions_fragment.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/fragment_filter.xml" value="0.25327510917030566" />
+        <entry key="app/src/main/res/layout/fragment_from_reg.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/fragment_vk.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/help_dialog.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/item_news.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/item_words.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/lenta_element_style.xml" value="0.13518518518518519" />
+        <entry key="app/src/main/res/layout/msg_window.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/registration_f.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/sign_in_f.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/spinner.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/yellow_spinner.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.128" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,271 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.fragment.discusssions_fragment">
+
+
+    <ScrollView
+        android:id = "@+id/scroll_discussion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id = "@+id/discussion_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <EditText
+        android:id = "@+id/edit_link"
+        android:layout_width="200dp"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:textColorHint="@color/hint"
+        android:hint = "@string/enter_link"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </EditText>
+
+
+    <EditText
+        android:id = "@+id/edit_description"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dp"
+        android:textColorHint="@color/hint"
+        android:hint = "@string/enter_description"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_link"
+        >
+    </EditText>
+
+
+    <Button
+        android:id = "@+id/add_discussions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:backgroundTint="@null"
+        android:text = "@string/add_discussion"
+        android:textColor="@color/black"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="100dp"
+        android:onClick="onAddDiscussion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_description"
+        >
+    </Button>
+
+
+    <TextView
+        android:id = "@+id/textDiscussion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:text = "@string/discussions_list"
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_discussions"
+        >
+    </TextView>
+
+
+
+    <Spinner
+        android:id = "@+id/spinnerDiscussions"
+        android:backgroundTint="@color/main"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:spinnerMode="dialog"
+        app:layout_constraintTop_toBottomOf="@id/textDiscussion">
+    </Spinner>
+
+
+    <Button
+        android:id = "@+id/delete_discussions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:backgroundTint="@null"
+        android:text = "@string/delete_discussion"
+        android:background="@drawable/button_style"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:onClick="onDeleteDiscussion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerDiscussions"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/TextListForDiscussions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:text = "@string/applied_lists"
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/delete_discussions">
+    </TextView>
+
+     <Spinner
+         android:id = "@+id/spinnerListForDiscussions"
+         android:backgroundTint="@color/main"
+         android:layout_width="260dp"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.5"
+         app:layout_constraintStart_toStartOf="parent"
+         android:spinnerMode="dialog"
+         app:layout_constraintTop_toBottomOf="@id/TextListForDiscussions">
+     </Spinner>
+
+    <Button
+        android:id = "@+id/deleteFromDiscussion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:backgroundTint="@null"
+        android:text = "@string/delete_from_discussion"
+        android:background="@drawable/button_style"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:onClick="onDeleteFromDiscussion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerListForDiscussions"
+        >
+    </Button>
+
+    <TextView
+        android:id = "@+id/textBlackListsDiscussion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:text = "@string/black_lists"
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deleteFromDiscussion"
+        >
+    </TextView>
+
+
+    <Spinner
+        android:id = "@+id/spinnerDiscussionsBlackLists"
+        android:backgroundTint="@color/main"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:spinnerMode="dialog"
+        app:layout_constraintTop_toBottomOf="@id/textBlackListsDiscussion">
+    </Spinner>
+
+
+   <Button
+       android:id = "@+id/addBlackListToDiscussion"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="30dp"
+       android:text = "@string/add_list_to_discussion"
+       android:textColor="@color/black"
+       android:layout_marginTop="100dp"
+       app:backgroundTint="@null"
+       android:background="@drawable/button_style"
+       android:onClick="onAddBlackListToDiscussion"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/spinnerDiscussionsBlackLists">
+   </Button>
+
+
+    <TextView
+        android:id = "@+id/textWhiteListsDiscussion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:text = "@string/white_lists"
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addBlackListToDiscussion"
+        >
+    </TextView>
+
+
+    <Spinner
+        android:id = "@+id/spinnerDiscussionsWhiteLists"
+        android:backgroundTint="@color/main"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:spinnerMode="dialog"
+        app:layout_constraintTop_toBottomOf="@id/textWhiteListsDiscussion">
+    </Spinner>
+
+
+    <Button
+        android:id = "@+id/addWhiteListToDiscussion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/add_list_to_discussion"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_style"
+        app:backgroundTint="@null"
+        android:onClick="onAddWhiteListToDiscussion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerDiscussionsWhiteLists">
+    </Button>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

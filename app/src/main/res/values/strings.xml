@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Propolis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="reg_button_new"> Создать новый аккаунт</string>
+    <string name="reg_button"> Создать аккаунт </string>
+    <string name="signIn_button"> Войти </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment </string>
+
+
+    <string name="pas_hint"> Пароль </string>
+    <string name="rep_pas_hint"> Повторите пароль </string>
+    <string name="email_hint"> Логин </string>
+    <string name="username_hint"> Username </string>
+
+    <string name="send_button">Send</string>
+    <string name="message_hint">Enter the message</string>
+
+    <string name="account">Аккаунт</string>
+    <string name="notification">Уведомления</string>
+    <string name="refresh">Обновить</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="exit">Выйти</string>
+
+    <string name="new_password_hint">Новый пароль</string>
+    <string name="rep_new_password_hint">Повторите пароль</string>
+    <string name="change">Изменить</string>
+    <string name="message">message</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="change_name">Изменить имя</string>
+    <string name="enter_word">Введите слово</string>
+    <string name="filter_setting">Фильтры</string>
+    <string name="enter_words_to_filter">Введите слово/слова</string>
+    <string name="black_list">Чёрный список</string>
+    <string name="add_word_to_blacklist">Добавить в чёрный список</string>
+    <string name="get_words_from_blacklist">Get from Black list</string>
+    <string name="enter_list_name_for_add">Введите имя для создания</string>
+    <string name="create_black_list">Создать чёрный список</string>
+    <string name="select_black_lists">Select Black Lists</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="add_account">Добавить аккаунт</string>
+    <string name="login">Логин</string>
+    <string name="discussions">Обсуждения</string>
+    <string name="add_discussion">Добавить обсуждение</string>
+    <string name="enter_description">Введите описание</string>
+    <string name="delete_discussion">Удалить обсуждение</string>
+    <string name="discussions_list">Список обсуждений</string>
+    <string name="black_lists">Чёрные списки</string>
+    <string name="white_lists">Белые списки</string>
+    <string name="add_black_list_to_discussion">Добавить чёрный список к обсуждению</string>
+    <string name="add_white_list_to_discussion">Добавить белый список к обсуждению</string>
+    <string name="delete_black_list">Удалить чёрный список</string>
+    <string name="delete_from_black_list">Удалить из чёрного списка</string>
+    <string name="applied_lists">Применённые списки</string>
+    <string name="on">Старт</string>
+    <string name="off">Стоп</string>
+    <string name="add_vk_account">Добавить ВК</string>
+    <string name="enter_code">Введите код</string>
+    <string name="enter_link">Введите ссылку</string>
+    <string name="add_list_to_discussion">Применить список</string>
+    <string name="delete_from_discussion">Удалить из обсуждения</string>
+
+</resources>

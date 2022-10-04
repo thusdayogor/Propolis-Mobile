@@ -1,0 +1,188 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ConstraintFilter"
+    android:background="@color/black"
+    tools:context="com.example.fragment.filter">
+
+    <ScrollView
+        android:id = "@+id/scroll_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id = "@+id/filter_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewStateList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/black_list"
+        android:textColor="@color/main"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Switch
+        android:id="@+id/switchList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewStateList"/>
+
+    
+    <Spinner
+        android:id = "@+id/spinnerList"
+        android:backgroundTint="@color/main"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:spinnerMode="dialog"
+        app:layout_constraintTop_toBottomOf="@id/switchList">
+    </Spinner>
+
+   <Button
+       android:id = "@+id/deleteListButton"
+       android:layout_width="260dp"
+       android:layout_height="wrap_content"
+       app:backgroundTint="@null"
+       android:layout_margin="20dp"
+       android:text = "@string/delete_black_list"
+       android:textColor="@color/black"
+       android:onClick="onDeleteList"
+       android:background="@drawable/button_style"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/spinnerList"
+       >
+   </Button>
+
+
+    <EditText
+        android:id="@+id/addListEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dp"
+        android:hint="@string/enter_list_name_for_add"
+        android:minHeight="48dp"
+        android:inputType="textVisiblePassword"
+        android:textColor="@color/main"
+        android:textColorHint="@color/hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deleteListButton"
+        >
+    </EditText>
+
+
+    <Button
+        android:id ="@+id/addListButton"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:background="@drawable/button_style"
+        android:onClick="onAddList"
+        android:text = "@string/create_black_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addListEditText"
+        >
+    </Button>
+
+            <Spinner
+                android:id = "@+id/spinnerWord"
+                android:backgroundTint="@color/main"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                android:spinnerMode="dialog"
+                app:layout_constraintTop_toBottomOf="@id/addListButton">
+            </Spinner>
+
+            <Button
+                android:id = "@+id/deleteWordButton"
+                android:layout_width="260dp"
+                app:backgroundTint="@null"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text = "@string/delete_from_black_list"
+                android:textColor="@color/black"
+                android:background="@drawable/button_style"
+                android:onClick="onDeleteWord"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/spinnerWord"
+                >
+            </Button>
+
+
+
+    <EditText
+        android:id="@+id/addWordsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_words_to_filter"
+        android:textColor="@color/main"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dp"
+        android:textColorHint="@color/hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deleteWordButton"
+        >
+    </EditText>
+
+
+    <Button
+        android:id ="@+id/addWordListButton"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:text = "@string/add_word_to_blacklist"
+        android:onClick="onAddWords"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addWordsEditText"
+        >
+    </Button>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

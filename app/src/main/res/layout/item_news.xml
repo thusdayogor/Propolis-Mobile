@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/news_element_style"
+            android:padding="10dp">
+
+
+            <ImageButton
+                android:id = "@+id/newsUserLinkButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                android:src="@drawable/ic_baseline_3p_30"
+                android:background="@color/black"
+                android:layout_marginRight="5dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+            </ImageButton>
+
+
+            <ImageButton
+                android:id = "@+id/newsPostLinkButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                android:background="@color/black"
+                android:src="@drawable/ic_baseline_newspaper_30"
+                android:layout_marginRight="5dp"
+                app:layout_constraintRight_toLeftOf="@id/newsUserLinkButton"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+            </ImageButton>
+
+
+            <TextView
+                android:id="@+id/newsTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/main"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/newsDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintLeft_toRightOf="@id/newsTimeTextView"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/main"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/newsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/main"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/newsDateTextView">
+            </TextView>
+
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id = "@+id/newsImageView"
+                android:layout_width="300dp"
+                android:maxHeight="400dp"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@null"
+                android:background="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/newsTextView"
+                >
+            </ImageView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
+
+

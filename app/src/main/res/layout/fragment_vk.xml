@@ -1,0 +1,117 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.fragment.vk">
+
+
+    <ScrollView
+        android:id = "@+id/scroll_vk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id = "@+id/vk_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/vk_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vk_icon"
+        android:layout_marginTop="100dp"
+        android:background="@color/main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id = "@+id/edit_login_vk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:hint="@string/login"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dp"
+        android:layout_margin="50dp"
+        android:minHeight="48dp"
+        android:minWidth="100dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:textColorHint="@color/hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vk_image"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+
+    <EditText
+        android:id = "@+id/edit_password_vk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dp"
+        android:hint = "@string/pas_hint"
+        android:layout_margin="20dp"
+        android:minHeight="48dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:minWidth="100dp"
+        android:textColorHint="@color/hint"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_login_vk"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+
+
+    <Button
+        android:id = "@+id/add_vk_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_style"
+        android:text = "@string/add_account"
+        android:onClick="onAddVk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_password_vk">
+    </Button>
+
+     <ImageButton
+         android:id="@+id/image_btn_vk"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/question_style"
+         android:src="@drawable/ic_baseline_question_mark_24"
+         android:layout_marginTop="50dp"
+         android:onClick="onVkInfo"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.5"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@id/add_vk_button">
+     </ImageButton>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
