@@ -15,24 +15,24 @@ This application was developed as a pet of the project. The application itself i
 Home page: 
 ----
 <p align="center">
-<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/1.png" width="500">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/1.png" width="500">
 </p>
 
 
 Bad site found:
 ----
 <p align="center">
-<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/2.png" width="500">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/2.png" width="500">
 </p>
 
 Good site found:
 ----
 <p align="center">
-<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/3.png" width="500">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/3.png" width="500">
 </p>
 
 ROC:
 ----
 <p align="center">
-<img src="https://github.com/thusdayogor/SKIDDOO-/blob/main/%20ScreenShots/4.png" width="500">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/4.png" width="500">
 </p>
