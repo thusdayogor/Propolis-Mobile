@@ -10,7 +10,11 @@ This application was developed as a pet of the project. The application itself i
 8) Implemented a notification mechanism using Alarm Manager, Broadcast Receiver, Service, Notification Manager.
 
 
-
+Discussion feed:
+----
+<p align="center">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/8.png" width="200">
+</p>
 
 
 Registration/Sign in 
@@ -53,13 +57,6 @@ Settings menu:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/7.png" width="200">
-</p>
-
-
-Discussion feed:
-----
-<p align="center">
-<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/8.png" width="200">
 </p>
 
 
