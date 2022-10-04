@@ -32,18 +32,13 @@ Settings menu:
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/3.png" width="200">
 </p>
 
-Password change:
-----
-<p align="center">
-<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/4.png" width="200">
-</p>
-
-
-Settings menu:
+Password change/Add Vk:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/5.png" width="200">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/4.png" width="200">
 </p>
+
 
 
 
