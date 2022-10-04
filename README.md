@@ -54,7 +54,7 @@ Black/White lists create:
 </p>
 
 <p align="center">
-<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/7.png" width="200">
+<img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/8.png" width="200">
 </p>
 
 
