@@ -46,16 +46,11 @@ Settings menu:
 </p>
 
 
-Settings menu:
+
+Black/White lists create:
 ----
 <p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/6.png" width="200">
-</p>
-
-
-Settings menu:
-----
-<p align="center">
 <img src="https://github.com/thusdayogor/Propolis-Mobile/blob/main/image/7.png" width="200">
 </p>
 
